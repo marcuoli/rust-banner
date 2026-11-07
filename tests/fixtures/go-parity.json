@@ -1,0 +1,400 @@
+{
+  "render": [
+    {
+      "language": "en",
+      "structured": false,
+      "started": false,
+      "want": "\nMyApp (Database collector) 1.2.3+20261107.42 (2026-11-07T12:34:56-03:00)\n\nAuthor: Application author\n\nThis software is distributed under the Oracle Universal Permissive License (UPL), Version 1.0.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nCommand line: myapp --password [REDACTED] \"two words\" --file inventory.lst\n\n"
+    },
+    {
+      "language": "en",
+      "structured": false,
+      "started": true,
+      "want": "\nMyApp (Database collector) 1.2.3+20261107.42 (2026-11-07T12:34:56-03:00)\n\nAuthor : Application author\n\nThis software is distributed under the Oracle Universal Permissive License (UPL), Version 1.0.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nCommand line: myapp --password [REDACTED] \"two words\" --file inventory.lst\nRun started : 2026-11-07T13:14:15-03:00\n\n"
+    },
+    {
+      "language": "en",
+      "structured": true,
+      "started": false,
+      "want": "\nMyApp (Database collector | Overall build: 792 | Commit: abcdef0123456789abcdef0123456789abcdef01 | Rust: rustc 1.99.1) 1.2.3+20261107.42 (2026-11-07T12:34:56-03:00)\n\nAuthor: Application author\n\nThis software is distributed under the Oracle Universal Permissive License (UPL), Version 1.0.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nCommand line: myapp --password [REDACTED] \"two words\" --file inventory.lst\n\n"
+    },
+    {
+      "language": "en",
+      "structured": true,
+      "started": true,
+      "want": "\nMyApp (Database collector | Overall build: 792 | Commit: abcdef0123456789abcdef0123456789abcdef01 | Rust: rustc 1.99.1) 1.2.3+20261107.42 (2026-11-07T12:34:56-03:00)\n\nAuthor : Application author\n\nThis software is distributed under the Oracle Universal Permissive License (UPL), Version 1.0.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nCommand line: myapp --password [REDACTED] \"two words\" --file inventory.lst\nRun started : 2026-11-07T13:14:15-03:00\n\n"
+    },
+    {
+      "language": "es",
+      "structured": false,
+      "started": false,
+      "want": "\nMyApp (Database collector) 1.2.3+20261107.42 (2026-11-07T12:34:56-03:00)\n\nAutor: Application author\n\nEste software se distribuye bajo la Licencia Universal Permisiva de Oracle (UPL), versión 1.0.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nLínea de comandos: myapp --password [REDACTED] \"two words\" --file inventory.lst\n\n"
+    },
+    {
+      "language": "es",
+      "structured": false,
+      "started": true,
+      "want": "\nMyApp (Database collector) 1.2.3+20261107.42 (2026-11-07T12:34:56-03:00)\n\nAutor : Application author\n\nEste software se distribuye bajo la Licencia Universal Permisiva de Oracle (UPL), versión 1.0.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nLínea de comandos: myapp --password [REDACTED] \"two words\" --file inventory.lst\nInicio           : 2026-11-07T13:14:15-03:00\n\n"
+    },
+    {
+      "language": "es",
+      "structured": true,
+      "started": false,
+      "want": "\nMyApp (Database collector | Compilación general: 792 | Commit: abcdef0123456789abcdef0123456789abcdef01 | Rust: rustc 1.99.1) 1.2.3+20261107.42 (2026-11-07T12:34:56-03:00)\n\nAutor: Application author\n\nEste software se distribuye bajo la Licencia Universal Permisiva de Oracle (UPL), versión 1.0.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nLínea de comandos: myapp --password [REDACTED] \"two words\" --file inventory.lst\n\n"
+    },
+    {
+      "language": "es",
+      "structured": true,
+      "started": true,
+      "want": "\nMyApp (Database collector | Compilación general: 792 | Commit: abcdef0123456789abcdef0123456789abcdef01 | Rust: rustc 1.99.1) 1.2.3+20261107.42 (2026-11-07T12:34:56-03:00)\n\nAutor : Application author\n\nEste software se distribuye bajo la Licencia Universal Permisiva de Oracle (UPL), versión 1.0.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nLínea de comandos: myapp --password [REDACTED] \"two words\" --file inventory.lst\nInicio           : 2026-11-07T13:14:15-03:00\n\n"
+    },
+    {
+      "language": "pt-BR",
+      "structured": false,
+      "started": false,
+      "want": "\nMyApp (Database collector) 1.2.3+20261107.42 (2026-11-07T12:34:56-03:00)\n\nAutor: Application author\n\nEste software é distribuído sob a Licença Universal Permissiva da Oracle (UPL), versão 1.0.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nLinha de comando: myapp --password [REDACTED] \"two words\" --file inventory.lst\n\n"
+    },
+    {
+      "language": "pt-BR",
+      "structured": false,
+      "started": true,
+      "want": "\nMyApp (Database collector) 1.2.3+20261107.42 (2026-11-07T12:34:56-03:00)\n\nAutor : Application author\n\nEste software é distribuído sob a Licença Universal Permissiva da Oracle (UPL), versão 1.0.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nLinha de comando: myapp --password [REDACTED] \"two words\" --file inventory.lst\nInício          : 2026-11-07T13:14:15-03:00\n\n"
+    },
+    {
+      "language": "pt-BR",
+      "structured": true,
+      "started": false,
+      "want": "\nMyApp (Database collector | Compilação geral: 792 | Commit: abcdef0123456789abcdef0123456789abcdef01 | Rust: rustc 1.99.1) 1.2.3+20261107.42 (2026-11-07T12:34:56-03:00)\n\nAutor: Application author\n\nEste software é distribuído sob a Licença Universal Permissiva da Oracle (UPL), versão 1.0.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nLinha de comando: myapp --password [REDACTED] \"two words\" --file inventory.lst\n\n"
+    },
+    {
+      "language": "pt-BR",
+      "structured": true,
+      "started": true,
+      "want": "\nMyApp (Database collector | Compilação geral: 792 | Commit: abcdef0123456789abcdef0123456789abcdef01 | Rust: rustc 1.99.1) 1.2.3+20261107.42 (2026-11-07T12:34:56-03:00)\n\nAutor : Application author\n\nEste software é distribuído sob a Licença Universal Permissiva da Oracle (UPL), versão 1.0.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,\nWHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nLinha de comando: myapp --password [REDACTED] \"two words\" --file inventory.lst\nInício          : 2026-11-07T13:14:15-03:00\n\n"
+    }
+  ],
+  "redact": [
+    {
+      "args": [
+        "--password",
+        "database-secret",
+        "--PASSWORD=inline-secret",
+        "--db-token=token-secret",
+        "--wallet",
+        "private-wallet"
+      ],
+      "extra": null,
+      "want": [
+        "--password",
+        "[REDACTED]",
+        "--PASSWORD=[REDACTED]",
+        "--db-token=[REDACTED]",
+        "--wallet",
+        "[REDACTED]"
+      ]
+    },
+    {
+      "args": [
+        "-p=short-secret",
+        "-p",
+        "other-secret",
+        "--config-file=private.toml",
+        "--inventory-file",
+        "private.lst"
+      ],
+      "extra": [
+        "-p",
+        "--config-file",
+        "--inventory-file"
+      ],
+      "want": [
+        "-p=[REDACTED]",
+        "-p",
+        "[REDACTED]",
+        "--config-file=[REDACTED]",
+        "--inventory-file",
+        "[REDACTED]"
+      ]
+    },
+    {
+      "args": [
+        "--file",
+        "inventory.csv",
+        "--tns-admin",
+        "C:\\Oracle Network\\Admin",
+        "--tns-admin=C:\\Other Network\\Admin"
+      ],
+      "extra": null,
+      "want": [
+        "--file",
+        "inventory.csv",
+        "--tns-admin",
+        "C:\\Oracle Network\\Admin",
+        "--tns-admin=C:\\Other Network\\Admin"
+      ]
+    },
+    {
+      "args": [
+        "--endpoint=oracle://scott:tiger@db.example/svc?token=abc",
+        "oracle://u:p@db/svc?name=ok\u0026password=hidden"
+      ],
+      "extra": null,
+      "want": [
+        "--endpoint=oracle://%5BREDACTED%5D@db.example/svc?token=%5BREDACTED%5D",
+        "oracle://%5BREDACTED%5D@db/svc?name=ok\u0026password=%5BREDACTED%5D"
+      ]
+    },
+    {
+      "args": [
+        "https://db/path?api-key=hidden\u0026safe=yes"
+      ],
+      "extra": [
+        "--api-key"
+      ],
+      "want": [
+        "https://db/path?api-key=%5BREDACTED%5D\u0026safe=yes"
+      ]
+    },
+    {
+      "args": [
+        "--endpoint=oracle://user:secret@[bad",
+        "oracle://user:secret@db/svc?token=%ZZ",
+        "https://db/path?token=secret;bad=yes"
+      ],
+      "extra": null,
+      "want": [
+        "--endpoint=[REDACTED-URL]",
+        "[REDACTED-URL]",
+        "[REDACTED-URL]"
+      ]
+    },
+    {
+      "args": [
+        "--pass\u0000word",
+        "hidden",
+        "value\nnext\tend\u001b"
+      ],
+      "extra": null,
+      "want": [
+        "--password",
+        "[REDACTED]",
+        "valuenextend"
+      ]
+    },
+    {
+      "args": [
+        "--password"
+      ],
+      "extra": null,
+      "want": [
+        "--password"
+      ]
+    },
+    {
+      "args": [
+        "https://u%40ser:p%40ss@HOST:443/a%2Fb?b=2\u0026a=1\u0026a=3\u0026token=x\u0026token=y#part"
+      ],
+      "extra": null,
+      "want": [
+        "https://%5BREDACTED%5D@HOST:443/a%2Fb?a=1\u0026a=3\u0026b=2\u0026token=%5BREDACTED%5D#part"
+      ]
+    },
+    {
+      "args": [
+        "HTTPS://U:P@EXAMPLE.COM/path?q=space+value\u0026private-key=x"
+      ],
+      "extra": null,
+      "want": [
+        "https://%5BREDACTED%5D@EXAMPLE.COM/path?private-key=%5BREDACTED%5D\u0026q=space+value"
+      ]
+    },
+    {
+      "args": [
+        "https://db/?%74oken=x\u0026safe=%FF\u0026blank\u0026x=a%3Bb\u0026x=%2B"
+      ],
+      "extra": null,
+      "want": [
+        "https://db/?blank=\u0026safe=%FF\u0026token=%5BREDACTED%5D\u0026x=a%3Bb\u0026x=%2B"
+      ]
+    },
+    {
+      "args": [
+        "https://db/path?",
+        "https://db/path?\u0026\u0026",
+        "https://db/path#"
+      ],
+      "extra": null,
+      "want": [
+        "https://db/path?",
+        "https://db/path",
+        "https://db/path"
+      ]
+    },
+    {
+      "args": [
+        "https://db/a b?query=a b\u0026password=x"
+      ],
+      "extra": null,
+      "want": [
+        "https://db/a%20b?password=%5BREDACTED%5D\u0026query=a+b"
+      ]
+    },
+    {
+      "args": [
+        "--token",
+        "--safe-looking",
+        "-password=unchanged",
+        "-abc",
+        "--",
+        "--wallet-location=x"
+      ],
+      "extra": null,
+      "want": [
+        "--token",
+        "[REDACTED]",
+        "-password=unchanged",
+        "-abc",
+        "--",
+        "--wallet-location=[REDACTED]"
+      ]
+    },
+    {
+      "args": [
+        "https://u:p@[::1]:8443/x?TOKEN=x",
+        "oracle://u:p@db/service?b=2\u0026a=1"
+      ],
+      "extra": null,
+      "want": [
+        "https://%5BREDACTED%5D@[::1]:8443/x?TOKEN=%5BREDACTED%5D",
+        "oracle://%5BREDACTED%5D@db/service?a=1\u0026b=2"
+      ]
+    },
+    {
+      "args": [
+        "--endpoint=https://db/a%ZZ?token=secret",
+        "https://user:pass@host/#bad%ZZ"
+      ],
+      "extra": null,
+      "want": [
+        "--endpoint=[REDACTED-URL]",
+        "[REDACTED-URL]"
+      ]
+    },
+    {
+      "args": [
+        "--PRİVATE-KEY=hidden-inline",
+        "--PRİVATE-KEY",
+        "hidden-separate",
+        "https://host/?PR%C4%B0VATE-KEY=hidden-query"
+      ],
+      "extra": null,
+      "want": [
+        "--PRİVATE-KEY=[REDACTED]",
+        "--PRİVATE-KEY",
+        "[REDACTED]",
+        "https://host/?PR%C4%B0VATE-KEY=%5BREDACTED%5D"
+      ]
+    },
+    {
+      "args": [
+        "--İD=hidden-id",
+        "--İD",
+        "hidden-id-separate",
+        "https://host/?%C4%B0D=hidden-id-query"
+      ],
+      "extra": [
+        "--id"
+      ],
+      "want": [
+        "--İD=[REDACTED]",
+        "--İD",
+        "[REDACTED]",
+        "https://host/?%C4%B0D=%5BREDACTED%5D"
+      ]
+    },
+    {
+      "args": [
+        "--id=hidden-custom",
+        "--id",
+        "hidden-custom-separate",
+        "https://host/?id=hidden-custom-query"
+      ],
+      "extra": [
+        "--İD"
+      ],
+      "want": [
+        "--id=[REDACTED]",
+        "--id",
+        "[REDACTED]",
+        "https://host/?id=%5BREDACTED%5D"
+      ]
+    },
+    {
+      "args": [
+        "--ΟΣ=hidden-sigma",
+        "--ΟΣ",
+        "hidden-sigma-separate",
+        "https://host/?%CE%9F%CE%A3=hidden-sigma-query",
+        "--ος=safe-final-sigma"
+      ],
+      "extra": [
+        "--οσ"
+      ],
+      "want": [
+        "--ΟΣ=[REDACTED]",
+        "--ΟΣ",
+        "[REDACTED]",
+        "https://host/?%CE%9F%CE%A3=%5BREDACTED%5D",
+        "--ος=safe-final-sigma"
+      ]
+    }
+  ],
+  "quote": [
+    {
+      "command": "my app",
+      "args": [
+        "",
+        "two words",
+        "a\"b",
+        "--password",
+        "hidden"
+      ],
+      "want": "\"my app\" \"\" \"two words\" \"a\\\"b\" --password [REDACTED]"
+    },
+    {
+      "command": "tool\n",
+      "args": [
+        "value\r",
+        " ",
+        "\u2028",
+        "　",
+        "C:\\two words\\file"
+      ],
+      "want": "tool value \"\\u00a0\" \"\\u2028\" \"\\u3000\" \"C:\\\\two words\\\\file\""
+    },
+    {
+      "command": "tool",
+      "args": [
+        "a\\b",
+        "quote\"and\\slash",
+        "plain",
+        "é",
+        "😀"
+      ],
+      "want": "tool a\\b \"quote\\\"and\\\\slash\" plain é 😀"
+    },
+    {
+      "command": "tool",
+      "args": [
+        "x​ y",
+        "x﻿ y",
+        "x y",
+        "x󰀀 y",
+        "x͸ y",
+        "x\u2029 y"
+      ],
+      "want": "tool \"x\\u200b y\" \"x\\ufeff y\" \"x\\ue000 y\" \"x\\U000f0000 y\" \"x\\u0378 y\" \"x\\u2029 y\""
+    }
+  ],
+  "completion": "\nDone. Have a nice day !\n\n"
+}
